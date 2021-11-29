@@ -6,7 +6,7 @@ Install Parrot-Security-OS terminal on WSL2 (Windows 11)
     Get and install the application
     Create a unix user account (ex. parrot) and password
     Ensure that Debian is running on WSL 2
-    --Powershell
+    --Powershell--
 
     >> wsl --list --verbose
     >> wsl --set-version <distribution name> <versionNumber>
