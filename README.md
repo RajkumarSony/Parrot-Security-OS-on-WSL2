@@ -3,11 +3,11 @@ Install Parrot-Security-OS terminal on WSL2 (Windows 11)
 
    # Install WSL
     Open PowerShell as Admin and run:
-    >>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    >> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
    # Update to WSL 2
     Open PowerShell as Admin
-    >>wsl --set-default-version 2
+    >> wsl --set-default-version 2
 
    # Install GNUPG:
     $ sudo apt install gnupg
