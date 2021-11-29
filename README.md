@@ -1,6 +1,18 @@
 ## Parrot-Security-OS-on-WSL2
 Install Parrot-Security-OS terminal on WSL2 (Windows 11)
 
+   # Install Debian
+    Open the Microsoft Store and select Debian distro
+    Get and install the application
+    Create a unix user account (ex. parrot) and password
+    Ensure that Debian is running on WSL 2
+    --Powershell
+
+    >> wsl --list --verbose
+    >> wsl --set-version <distribution name> <versionNumber>
+    Success! You now have WSL2 and Debian installed 
+
+
    # Install WSL
     Open PowerShell as Admin and run:
     >> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
